@@ -17,45 +17,38 @@
   </plugins>
 </build>
 
+
 <dependencies>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>7.9.0</version>
+</dependency>
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java</artifactId>
     <version>7.9.0</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-junit</artifactId>
-    <version>1.2.6</version>
-    <type>pom</type>
+    <version>7.9.0</version>
     <scope>test</scope>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm-deps -->
 <dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>4.7.1</version>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-jvm-deps</artifactId>
+    <version>1.0.6</version>
+    <scope>provided</scope>
 </dependency>
-<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<!-- https://mvnrepository.com/artifact/org.uniknow.agiledev/cucumber-reporting -->
 <dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>5.0.9</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.7.0</version>
-    <scope>test</scope>
-</dependency>
-<!-- https://mvnrepository.com/artifact/log4j/log4j -->
-<dependency>
-    <groupId>log4j</groupId>
-    <artifactId>log4j</artifactId>
-    <version>1.2.17</version>
+    <groupId>org.uniknow.agiledev</groupId>
+    <artifactId>cucumber-reporting</artifactId>
+    <version>0.1.14</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
 <dependency>
@@ -63,21 +56,26 @@
     <artifactId>gherkin</artifactId>
     <version>25.0.2</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
 <dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-junit</artifactId>
-    <version>7.8.1</version>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-all</artifactId>
+    <version>1.10.19</version>
     <scope>test</scope>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<!-- https://mvnrepository.com/artifact/cobertura/cobertura -->
 <dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-core</artifactId>
-    <version>2.19.0</version>
+    <groupId>cobertura</groupId>
+    <artifactId>cobertura</artifactId>
+    <version>1.8</version>
 </dependency>
-
-
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-html -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-html</artifactId>
+    <version>0.2.7</version>
+</dependency>
 </dependencies>
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
 
 </project>
