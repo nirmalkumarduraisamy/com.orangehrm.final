@@ -7,7 +7,10 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 
-@CucumberOptions(features = "featurefile/pendingtimesheet.feature",glue = "stepdefinitions")
+@CucumberOptions(
+		features = "src/test/resources/featurefile",
+		glue = "comoragnehrmstep",
+		dryRun = false , monochrome = false)
 public class runner {
 
 }
